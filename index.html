@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote of the Day</title>
+    <style>
+      body {
+        font-family: cursive;
+        background-color: rgb(188, 255, 199);
+      }
+      main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        color: rgba(73, 228, 255, 0);
+        font-size: 45px;
+        word-spacing: -12px;
+        font-family: mono;
+        text-shadow: 1px 1px 1px pink, 1px 1px 1px rgb(0, 0, 0);
+      }
+      .box {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(183, 119, 243);
+        border: 2px solid rgba(255, 255, 255, 0.562);
+      }
+      .sound-box {
+        color: rgb(255, 255, 255);
+
+        font-size: 45px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px pink, 1px 1px 1px greenyellow;
+      }
+      h2 {
+        font-size: 80px;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        animation: pulse 1s infinite ease;
+        cursor: pointer;
+      }
+      @keyframes pulse {
+        from {
+          text-shadow: 6px 6px 6px rgba(173, 178, 187, 0.685);
+        }
+        to {
+          text-shadow: 3px 3px 3px rgba(171, 144, 172, 0.658);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <h1>air sounds</h1>
+        <div class="sound-box">
+          <p>kluuut</p>
+        </div>
+
+        <h2>🌬️</h2>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
